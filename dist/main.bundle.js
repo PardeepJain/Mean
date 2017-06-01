@@ -184,7 +184,7 @@ exports = module.exports = __webpack_require__(23)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".container{\n\theight: 600px; \n\tmax-height: 600px;\n\tmin-height: 600px;\n\twidth: 300px;\n\tmax-width: 300px;\n\tmin-width: 300px;\n}", ""]);
 
 // exports
 
@@ -269,7 +269,7 @@ module.exports = module.exports.toString();
 /***/ 218:
 /***/ (function(module, exports) {
 
-module.exports = "<a routerLink='portfolio'>Portfolio</a>\n<a routerLink='contacts'>Contacts</a>\n<a routerLink='todo-list'>Todo List</a>\n<router-outlet></router-outlet>"
+module.exports = "\n<div class='container'>\n\t<a routerLink='portfolio'>Portfolio</a>\n\t<a routerLink='contacts'>Contacts</a>\n\t<a routerLink='todo-list'>Todo List</a>\n\t<router-outlet></router-outlet>\n</div>"
 
 /***/ }),
 
